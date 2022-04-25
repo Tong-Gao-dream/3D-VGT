@@ -3,7 +3,7 @@
 This repository contains the source code for the paper "3D reconstruction method based on
 a generative model in continuous latent space"  
 
-Author email: gaotong_dream@foxmail
+Author email: gaotong_dream@foxmail.com
 
 ![](./img/data.png)
 
