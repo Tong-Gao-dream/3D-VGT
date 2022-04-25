@@ -23,7 +23,7 @@ We use the renderings of [ShapeNet](https://www.shapenet.org/) in our experiment
 #### Clone the Code Repository
 
 ```
-git clone https://github.com/clfs0003/UAGAN
+git clone https://github.com/clfs0003/3D-VGT
 ```
 #### Install Python Denpendencies
 
