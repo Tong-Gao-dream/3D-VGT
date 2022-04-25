@@ -14,5 +14,6 @@ def train(args, dataloader_vox, vae, optim, loss):
 
             optim.zero_grad()
             loss_.backward()
+            optim.step()
     vae.eval()
     torch.save(vae.state_dict(), './model_save/part1.pth')
