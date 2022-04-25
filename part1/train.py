@@ -6,7 +6,6 @@ def train(args, dataloader_vox, vae, optim, loss):
     for epoch in range(args.epoch):
         for i_batch, sample in enumerate(dataloader_vox):
             sample_vox = sample.cuda()
-            optim.zero_grad()
             output = vae(sample_vox)
 
             ll = latent_loss(vae.z_mean, vae.z_sigma)
